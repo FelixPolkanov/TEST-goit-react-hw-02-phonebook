@@ -14,11 +14,11 @@ export class App extends Component {
     filter: '',
   };
 
-  handleInputChange = (e) => {
-    this.setState({
-      [e.currentTarget.name]: e.currentTarget.value,
-    });
-  };
+  // handleInputChange = (e) => {
+  //   this.setState({
+  //     [e.currentTarget.name]: e.currentTarget.value,
+  //   });
+  // };
 
   addContact = (data) => {
     const { name, number } = data;
